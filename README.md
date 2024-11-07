@@ -45,8 +45,8 @@ State management is handled using the `Bloc` package, and data persistence is ac
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/ishita1226/poll_assign.git
+   cd poll_assign
 
 2. **Install dependencies:**
    ```bash
@@ -95,6 +95,7 @@ dev_dependencies:
   ## My Opinion
 
 In the voting part of this application, I have made it look as if multiple votes are being casted it can easily calculate the percentage and show it on graph. I know that the votes will be casted uniquely from each user's device, so for that I have code commented out in **polls.dart** file which will make sure that only one votes can be casted from a device.
+Also I have not properly focused on the UI part. I primarily targetted to meet all the requirements mentioned for this assignment. 
 
 
   ## Future Improvements
