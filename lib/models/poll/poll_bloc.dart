@@ -3,7 +3,7 @@ import 'package:abhiman_assignment/models/poll/poll_card.dart';
 import 'package:abhiman_assignment/models/poll/poll_event.dart';
 import 'package:abhiman_assignment/models/poll/poll_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:abhiman_assignment/services/hive_service.dart';
+import 'package:abhiman_assignment/viewmodels/services/hive_service.dart';
 
 class PollBloc extends Bloc<PollEvent, PollState> {
   final HiveService _hiveService;

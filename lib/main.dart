@@ -1,9 +1,9 @@
-import 'package:abhiman_assignment/models/comment_bloc.dart';
+import 'package:abhiman_assignment/models/comment/comment_bloc.dart';
 import 'package:abhiman_assignment/models/poll/poll_event.dart';
 import 'package:abhiman_assignment/views/create_poll_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'services/hive_service.dart';
+import 'viewmodels/services/hive_service.dart';
 import 'package:abhiman_assignment/models/poll/poll_bloc.dart';
 import 'package:abhiman_assignment/views/feed_view.dart';
 

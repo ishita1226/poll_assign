@@ -1,8 +1,8 @@
 import 'package:abhiman_assignment/models/poll/poll.dart';
 import 'package:abhiman_assignment/models/poll/poll_event.dart';
 import 'package:abhiman_assignment/models/poll/poll_options.dart';
-import 'package:abhiman_assignment/utils/comment_bottom_sheet.dart';
-import 'package:abhiman_assignment/utils/results_bottom_sheet.dart';
+import 'package:abhiman_assignment/viewmodels/utils/comment_bottom_sheet.dart';
+import 'package:abhiman_assignment/viewmodels/utils/results_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:abhiman_assignment/models/poll/poll_bloc.dart';

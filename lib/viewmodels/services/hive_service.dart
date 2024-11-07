@@ -1,4 +1,4 @@
-import 'package:abhiman_assignment/models/comment.dart';
+import 'package:abhiman_assignment/models/comment/comment.dart';
 import 'package:abhiman_assignment/models/poll/poll.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 

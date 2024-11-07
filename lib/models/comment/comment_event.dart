@@ -1,4 +1,4 @@
-import 'package:abhiman_assignment/models/comment.dart';
+import 'package:abhiman_assignment/models/comment/comment.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class CommentEvent extends Equatable {

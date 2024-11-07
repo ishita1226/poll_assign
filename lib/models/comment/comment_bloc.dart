@@ -1,6 +1,6 @@
-import 'package:abhiman_assignment/models/comment_event.dart';
-import 'package:abhiman_assignment/models/comment_state.dart';
-import 'package:abhiman_assignment/services/hive_service.dart';
+import 'package:abhiman_assignment/models/comment/comment_event.dart';
+import 'package:abhiman_assignment/models/comment/comment_state.dart';
+import 'package:abhiman_assignment/viewmodels/services/hive_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 

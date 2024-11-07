@@ -1,6 +1,6 @@
 # Community Builder App
 
-A Flutter application for building a community platform that allows users to create polls, comment, and vote. The app is based on the Quizzo - Quiz App UI Kit (Light Version) and adapted for a community-building experience with a feed section, poll creation, and a visually polished interface.
+A Flutter application for building a community platform that allows users to create polls, like, comment, and vote.
 
 ![App Preview](link-to-screenshot-or-video)
 
@@ -10,8 +10,8 @@ A Flutter application for building a community platform that allows users to cre
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-<!-- - [Folder Structure](#folder-structure) -->
 - [Dependencies](#dependencies)
+- [My Opinion](#my_opinion)
 - [Future Improvements](#future-improvements)
 
 ## Features
@@ -21,24 +21,22 @@ A Flutter application for building a community platform that allows users to cre
 - Users can interact with each poll by liking, commenting, or voting directly from the feed.
 
 ### Poll Creation
-- Users can create a poll with a question, up to 5 options, and an optional expiry date.
+- Users can create a poll with a question, up to 5 options.
 - Newly created polls appear in the feed.
-- The poll creation uses a modified Quiz Creation UI from the Quizzo UI Kit.
 
 ### Comment Section
 - Each poll has a comment section where users can add comments.
-- Comments load below the respective poll and display in chronological order.
+- Comments can be added and viewed by clicking on the comment icon.
 
 ### Poll Voting
-- Users can vote on polls, and results are shown in a bar graph similar to the Quizzo UI.
-- Only one vote per user per poll is allowed.
+- Users can vote on polls, and results are shown in a bar graph which can be viewed by tapping on the question in the feed.
 
 ## Architecture
 
 This app follows the MVVM (Model-View-ViewModel) architecture for a clean, maintainable structure.
 
-- **Model**: Defines `Post`, `VoteOption`, and other data classes.
-- **ViewModel**: Manages business logic, user interactions, and state (e.g., `PostViewModel`).
+- **Model**: Defines `Polls` and `Comment` management.
+- **ViewModel**: Manages business logic, user interactions, services and utils.
 - **View**: Responsible for the UI layer, including screens for the feed, poll creation, comments, and voting.
 
 State management is handled using the `Bloc` package, and data persistence is achieved with `Hive`.
@@ -92,13 +90,15 @@ dev_dependencies:
     sdk: flutter
   hive_generator: ^2.0.1
   build_runner: ^2.4.6
+```
+
+  ## My Opinion
+
+In the voting part of this application, I have made it look as if multiple votes are being casted it can easily calculate the percentage and show it on graph. I know that the votes will be casted uniquely from each user's device, so for that I have code commented out in **polls.dart** file which will make sure that only one votes can be casted from a device.
 
 
   ## Future Improvements
 
-- **Flutter_bloc**: State Management
-- **Hive**: Local Data persistence
-- **Equatable**: Equality comparison
-- **Uuid**: Unique Id generation
-- **Fl_chart**: Graph visualizer
-
+- **Firebase Integration**: Use Firebase to persist data and allow for real-time updates.
+- **User Authentication**: Add login and registration features to personalize the experience.
+- **UI Enhacements**: More appealing UI

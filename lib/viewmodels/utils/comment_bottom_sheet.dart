@@ -1,7 +1,7 @@
-import 'package:abhiman_assignment/models/comment.dart';
-import 'package:abhiman_assignment/models/comment_bloc.dart';
-import 'package:abhiman_assignment/models/comment_event.dart';
-import 'package:abhiman_assignment/models/comment_state.dart';
+import 'package:abhiman_assignment/models/comment/comment.dart';
+import 'package:abhiman_assignment/models/comment/comment_bloc.dart';
+import 'package:abhiman_assignment/models/comment/comment_event.dart';
+import 'package:abhiman_assignment/models/comment/comment_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uuid/uuid.dart';
