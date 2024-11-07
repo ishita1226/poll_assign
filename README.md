@@ -1,4 +1,4 @@
-# Community Builder App
+# Community_Poll - Flutter Voting Application
 
 A Flutter application for building a community platform that allows users to create polls, like, comment, and vote.
 
