@@ -1,8 +1,8 @@
+import 'package:abhiman_assignment/models/poll/poll.dart';
 import 'package:abhiman_assignment/models/poll/poll_event.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uuid/uuid.dart';
-import '../models/poll/poll.dart';
 import 'package:abhiman_assignment/models/poll/poll_bloc.dart';
 
 class CreatePollView extends StatefulWidget {

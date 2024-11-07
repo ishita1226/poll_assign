@@ -5,7 +5,7 @@ import 'package:abhiman_assignment/utils/comment_bottom_sheet.dart';
 import 'package:abhiman_assignment/utils/results_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../models/poll/poll_bloc.dart';
+import 'package:abhiman_assignment/models/poll/poll_bloc.dart';
 
 class ToggleLike extends PollEvent {
   final String pollId;

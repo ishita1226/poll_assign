@@ -1,5 +1,5 @@
+import 'package:abhiman_assignment/models/comment.dart';
 import 'package:equatable/equatable.dart';
-import '../../models/comment.dart';
 
 abstract class CommentState extends Equatable {
   @override

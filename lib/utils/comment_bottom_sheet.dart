@@ -1,11 +1,10 @@
+import 'package:abhiman_assignment/models/comment.dart';
 import 'package:abhiman_assignment/models/comment_bloc.dart';
 import 'package:abhiman_assignment/models/comment_event.dart';
 import 'package:abhiman_assignment/models/comment_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uuid/uuid.dart';
-import '../../models/comment.dart';
-// import '../../blocs/comment/comment_bloc.dart';
 
 class CommentBottomSheet extends StatefulWidget {
   final String pollId;

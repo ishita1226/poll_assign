@@ -1,7 +1,8 @@
 import 'package:abhiman_assignment/models/comment_event.dart';
 import 'package:abhiman_assignment/models/comment_state.dart';
+import 'package:abhiman_assignment/services/hive_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../services/hive_service.dart';
+
 
 class CommentBloc extends Bloc<CommentEvent, CommentState> {
   final HiveService _hiveService;

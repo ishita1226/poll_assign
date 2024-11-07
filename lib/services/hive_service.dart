@@ -1,6 +1,6 @@
 import 'package:abhiman_assignment/models/comment.dart';
+import 'package:abhiman_assignment/models/poll/poll.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import '../models/poll/poll.dart';
 
 class HiveService {
   static const String pollBoxName = 'polls';
